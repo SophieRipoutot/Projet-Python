@@ -57,3 +57,6 @@ class TypeBond (Bond):
 # temps en abscisse sur 100 ans, on choisit le nb de fois ou le bond est compounded
 #on prend le montant min et on calcule avc le compounded
 # on plot l evolution
+
+
+testbond=
