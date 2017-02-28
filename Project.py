@@ -1,6 +1,8 @@
 import numpy as np
 from matplotlib import pyplot as plt # like tibo did
 
+
+
 class Bond (object):
 
     def __init__(self, term, amount, rate):
