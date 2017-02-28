@@ -1,19 +1,13 @@
 import numpy as np
 from matplotlib import pyplot as plt # like tibo did
 
-
-
 class Bond (object):
 
-    def __init__(self, term, amount, min_price, min_term, rate, acc_amount, nb_compounded, category):
+    def __init__(self, term, amount, rate):
         self.term = term                    # a term we'll invest in
         self.amount = amount                # a certain amount invested in
-        self.min_price = min_price          # a minimum price of the bond
-        self.min_term = min_term            # a minimum term
         self.rate = rate                    # a yearly interest rate
-        self.acc_amount = acc_amount        # accumulated amount
-        self.nb_compounded = nb_compounded  # number of times the interest is compounded by year
-        self.category = category            # type of bond (short term, long term)
+
 
 # short term bonds have a minimum of 2 years, min amount of 1000 and yearly interest rate of 1%
 # long term bonds have a minimum of 5 years, min amount of 3000 and a yearly interest of 3%
